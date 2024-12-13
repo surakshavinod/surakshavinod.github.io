@@ -5,6 +5,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - surakshavinod/CityScout
+  - surakshavinod/Alzheimer-Disease-Classifier
   - surakshavinod/Model-Comparison-for-Absorption-Profile-Prediction
   - surakshavinod/QC-and-Assembly-using-Nextflow 
   - surakshavinod/Find-Homologs
