@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've started applying for a PhD! :sparkles: :smile:
+I have started applying for a PhD! :sparkles: :smile:
