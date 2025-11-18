@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Suraksha Vinod",
-    "label": "MS Student",
+    "label": "PhD Student",
     "image": "",
     "email": "suraksha.vinlak@gmail.com",
     "phone": "",
     "url": "https://surakshavinod.github.io/",
-    "summary": "MS Bioinformatics student with a keen interest in personalized medicine and complex diseases",
+    "summary": "PhD student in Bioinformatics and Genomicd with a keen interest in personalized medicine and complex diseases",
     "location": {
-      "address": "Georgia Institute of Technology",
-      "postalCode": "GA 30308",
-      "city": "Atlanta",
+      "address": "The Pennsylvania State University",
+      "postalCode": "PA 16803",
+      "city": "State College",
       "countryCode": "US",
-      "region": "Georgia"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
