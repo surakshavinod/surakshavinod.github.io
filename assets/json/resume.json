@@ -6,7 +6,7 @@
     "email": "suraksha.vinlak@gmail.com",
     "phone": "",
     "url": "https://surakshavinod.github.io/",
-    "summary": "PhD student in Bioinformatics and Genomicd with a keen interest in personalized medicine and complex diseases",
+    "summary": "PhD student in Bioinformatics and Genomics with a keen interest in personalized medicine and complex diseases",
     "location": {
       "address": "The Pennsylvania State University",
       "postalCode": "PA 16803",
@@ -29,7 +29,7 @@
       "url": "https://ggibsongt.wixsite.com/gibsongatech/people",
       "startDate": "2024-01-01",
       "endDate": "2024-12-13",
-      "summary": "Computational genomics project aimed at understanding the influence of ancestry and environment on polygenic scores.",
+      "summary": "Investigated the influence of ancestry and environment on polygenic scores across five diseasesin a diverse cohort of ~10,000 individuals, and aimed to understand the notion of weathering",
       "highlights": ["Bioinformatics", "Computational Genomics", "Genetics", "Polygenic Scores", "Python", "R"]
     },
     {
@@ -56,11 +56,22 @@
       "url": "",
       "startDate": "2022-06-14",
       "endDate": "2022-12-28",
-      "summary": " Explored the implications of gut microbiome on Parkinson's Disease by carrying out Bioinformatics data analysis such as quality control, assembly, and reproducing analyses on Galaxy.",
+      "summary": " Explored the implications of gut microbiome on Parkinson's Disease by carrying out Bioinformatics data analysis such as quality control and assembly on Galaxy. Maintained an extensive database of literature on the same.",
       "highlights": ["Bioinformatics", "Gut Microbiome", "Galaxy", "Python"]
     }
   ],
   "education": [
+    {
+      "institution": "The Pennsylvania State University",
+      "location": "State College, PA, USA",
+      "url": "https://www.huck.psu.edu/graduate-programs/bioinformatics-and-genomics/",
+      "area": "Bioinformatics and Genomics",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2025-08-25",
+      "endDate": "2030-05-01",
+      "score": "4.0",
+      "courses": ["Genomics", "Bioinformatics I", "Regression", "Critical Analysis","Statistical Genomics"]
+    },
     {
       "institution": "Georgia Institute of Technology",
       "location": "Atlanta, GA, USA",
@@ -70,18 +81,18 @@
       "startDate": "2023-08-21",
       "endDate": "2025-05-05",
       "score": "4.0",
-      "courses": ["Genomics and Applied Bioinformatics", "Programming for Bioinformatics", "Human Genetics", "Computational Genomics", "Machine Learning in Computational Biology", "Experimental Design & Statistical Methods", "Data and VisualAnalytics", "Quantitative Neuroscience"]
+      "courses": ["Genomics and Applied Bioinformatics", "Programming for Bioinformatics", "Human Genetics", "Computational Genomics", "Machine Learning in Computational Biology", "Experimental Design & Statistical Methods", "Data and Visual Analytics", "Quantitative Neuroscience", "Epigenetics"]
     },
     {
       "institution": "PES University",
       "location": "Bengaluru, KA, India",
       "url": "https://www.pes.edu/",
-      "area": "Biotechnology (Computer Science and Engineering Minor)",
+      "area": "Biotechnology (Minor in Computer Science and Engineering)",
       "studyType": "Bachelor of Technology",
       "startDate": "2019-08-13",
       "endDate": "2023-05-05",
       "score": "8.91",
-      "courses": ["Biochemistry", "Genetics and Molecular Biology", "Genetic Counseling", "Genetic Engineering", "Bioinformatics", "In silico Drug Design", "Molecular Modeling and Simulations", "Neurobiology and Neuroinformatics", "Computational Biology", "Immunology", "Linear Algebra", "Engineering Mathematics", "Data Structures and Algorithms", "Database Management Systems", "Engineering Chemistry", "Engineering Physics"]
+      "courses": ["Biochemistry", "Genetics and Molecular Biology", "Genetic Counseling", "Genetic Engineering", "Bioinformatics", "In silico Drug Design", "Molecular Modeling and Simulations", "Neurobiology and Neuroinformatics", "Computational Biology", "Immunology", "Linear Algebra", "Engineering Mathematics", "Data Structures and Algorithms", "Database Management Systems"]
     }
   ],
   "awards": [
@@ -90,7 +101,42 @@
       "date": "2024-01-01",
       "awarder": "Georgia Institute of Technology",
       "url": "",
-      "summary": "Competitive graduate research assistantship for M.S. Bioinformatics students at Georgia Tech."
+      "summary": "Competitive graduate research assistantship for M.S. Bioinformatics students at Georgia Tech. 2x recipient."
+    },
+    {
+      "title": "Prof. M R Doreswamy Merit Scholarship Award Certificate",
+      "date": "2023-03-01",
+      "awarder": "PES University",
+      "url": "",
+      "summary": "Awarded to students whose academic performance is in the top 20% of the department. 5x recipient."
+    },
+    {
+      "title": "1st Runners-up - Nutrathon 2022",
+      "date": "2022-04-01",
+      "awarder": "PES University",
+      "url": "",
+      "summary": "Placed 2nd (i.e., 1st Runners-up) at the Nutrathon 2022 hackathon conducted by the Department of Biotechnology, PES University."
+    },
+    {
+      "title": "2nd Runners-up - Druggathon 2021",
+      "date": "2021-12-01",
+      "awarder": "PES University",
+      "url": "",
+      "summary": "Placed 3rd (i.e., 2nd Runners-up) at the Druggathon 2021 hackathon conducted by the Department of Biotechnology, PES University."
+    },
+    {
+      "title": "Best Paper Award",
+      "date": "2022-09-01",
+      "awarder": "School of Sciences at Jain (Deemed-to-be University)",
+      "url": "",
+      "summary": "“Identification of potential inhibitor against Nipah virus using In silico approach” was presented via a poster and won the Best Paper Award among the UG/PG students in the Health and Well-being category at I-SENTIENT, an international conference on Science and Technology for Socio-Economic and Environmental Sustainability hosted by the School of Sciences, Jain (Deemed-to-be) University."
+    },
+    {
+      "title": "Distinction Award Certificate",
+      "date": "2021-07-01",
+      "awarder": "PES University",
+      "url": "",
+      "summary": "Awarded to students who have secured an SGPA of 7.75 and above. 2x recipient."
     }
   ],
   "certificates": [
@@ -103,6 +149,13 @@
     }
   ],
   "publications": [
+    {
+      "name": "Machine learning models predict tumor-specific total mRNA expression associated with clinical outcomes across 14 cancer types",
+      "publisher": "Cancer Research (American Association for Cancer Research)",
+      "releaseDate": "2025-04-21",
+      "url": "https://doi.org/10.1158/1538-7445.AM2025-1095",
+      "summary": ""
+    },
     {
       "name": "Identifying anti-diabetic potential of alpha-amylase inhibitors in Ocimum basilicum using In vitro and In silico approaches",
       "publisher": "Suranaree Journal of Science and Technology",
