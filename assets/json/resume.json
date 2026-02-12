@@ -6,7 +6,7 @@
     "email": "suraksha.vinlak@gmail.com",
     "phone": "",
     "url": "https://surakshavinod.github.io/",
-    "summary": "PhD student in Bioinformatics and Genomics with a keen interest in personalized medicine and complex diseases",
+    "summary": "PhD student in Bioinformatics and Genomics at Penn State with a keen interest in personalized medicine and complex diseases.",
     "location": {
       "address": "The Pennsylvania State University",
       "postalCode": "PA 16803",
@@ -16,9 +16,14 @@
     },
     "profiles": [
       {
-        "network": "",
-        "username": "",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "surakshavinod",
+        "url": "https://www.linkedin.com/in/surakshavinod/"
+      },
+      {
+        "network": "GitHub",
+        "username": "surakshavinod",
+        "url": "https://www.github.com/surakshavinod/"
       }
     ]
   },
@@ -29,8 +34,11 @@
       "url": "https://ggibsongt.wixsite.com/gibsongatech/people",
       "startDate": "2024-01-01",
       "endDate": "2024-12-13",
-      "summary": "Investigated the influence of ancestry and environment on polygenic scores across five diseasesin a diverse cohort of ~10,000 individuals, and aimed to understand the notion of weathering",
-      "highlights": ["Bioinformatics", "Computational Genomics", "Genetics", "Polygenic Scores", "Python", "R"]
+      "summary": "",
+      "highlights": [
+        "Developed a computational pipeline to investigate the influence of ancestry and environment on polygenic scores across five diseases in a diverse WGS cohort of ~10,000 individuals",
+        "Integrated DNA methylation data to explore the impact of weathering on the risk profiles"
+      ]
     },
     {
       "name": "M. D. Anderson Cancer Center",
@@ -38,8 +46,11 @@
       "url": "",
       "startDate": "2024-06-10",
       "endDate": "2024-08-15",
-      "summary": "Implemented machine learning models with over 35,000 features to predict the tumor-specific total mRNA expression (TmS) across cancer types and evaluated its clinical utility through survival analysis and GSEA.",
-      "highlights": ["Bioinformatics", "Statistical Genetics", "GSEA", "Machine Learning", "Python", "R"]
+      "summary": "",
+      "highlights": [
+        "Implemented machine learning models with over 35,000 features to predict the tumor-specific total mRNA expression (TmS) across the lung cancer types",
+      "Evaluated the clinical utility of the predicted TmS through survival analysis and GSEA"
+      ]
     },
     {
       "name": "Centre for Brain Research, Indian Institute of Science",
@@ -47,8 +58,11 @@
       "url": "",
       "startDate": "2023-01-04",
       "endDate": "2023-06-30",
-      "summary": "Executed genome wide association studies (GWAS) utilizing WGS data with emphasis on rare variant association in a cohort of over 2000 individuals, and developed an extensive, parallelised computational pipeline for the same.",
-      "highlights": ["Bioinformatics", "Genetics", "Statistical Genetics", "GWAS", "Python", "R"]
+      "summary": "",
+      "highlights": [
+        "Executed rare-variant specific genome wide association studies (GWAS) utilizing WGS data in a cohort of over 2000 individuals",
+      "Developed an extensive, parallelised computational pipeline for downstream analyses"
+      ]
     },
     {
       "name": "Leucine Rich Bio Pvt Ltd",
@@ -56,8 +70,11 @@
       "url": "",
       "startDate": "2022-06-14",
       "endDate": "2022-12-28",
-      "summary": " Explored the implications of gut microbiome on Parkinson's Disease by carrying out Bioinformatics data analysis such as quality control and assembly on Galaxy. Maintained an extensive database of literature on the same.",
-      "highlights": ["Bioinformatics", "Gut Microbiome", "Galaxy", "Python"]
+      "summary": "",
+      "highlights": [
+        "Explored the implications of gut microbiome on Parkinson's Disease by carrying out Bioinformatics data analysis such as quality control and assembly on Galaxy",
+        "Maintained an extensive database of literature on the association of gut microbiome and Parkinson's Disease"
+      ]
     }
   ],
   "education": [
@@ -204,13 +221,13 @@
     {
       "name": "Personalized Medicine",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Precision Medicine", "Predictive Health"
+      "keywords": [
       ]
     },
     {
       "name": "Complex Diseases",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [ "Cancer", "Neurological Disorders"
+      "keywords": [
       ]
     },
     {
