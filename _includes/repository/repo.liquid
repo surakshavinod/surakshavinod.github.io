@@ -1,17 +1,31 @@
-<div class="repo card shadow-sm mb-4" style="width: 100%;">
-  <div class="card-body text-center">
-    <h5 class="card-title">
+{% assign repo_url = include.repository | split: '/' %}
+
+{% if repo_url.size == 2 %}
+  {% assign username = repo_url[0] %}
+  {% assign repo_name = repo_url[1] %}
+{% else %}
+  {% assign username = "" %}
+  {% assign repo_name = include.repository %}
+{% endif %}
+
+<div class="repo p-2 text-center">
+  <div class="repo-card p-3 border rounded">
+    <h5 class="mb-2">
       <a href="https://github.com/{{ include.repository }}" target="_blank">
         {{ repo_name }}
       </a>
     </h5>
-    <p class="card-text text-muted">
+
+    <p class="text-muted mb-2">
       {{ username }}
     </p>
-    <a href="https://github.com/{{ include.repository }}"
-       class="btn btn-primary btn-sm"
-       target="_blank">
-      View Repository
+
+    <a
+      href="https://github.com/{{ include.repository }}"
+      class="btn btn-sm btn-outline-primary"
+      target="_blank"
+    >
+      View on GitHub
     </a>
   </div>
 </div>
