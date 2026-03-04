@@ -9,6 +9,12 @@
     </a>
   </h5>
 
+{% if include.description %}
+  <p class="text-muted small mb-3">
+    {{ include.description }}
+  </p>
+{% endif %}
+
   <div class="mt-auto">
     <a
       href="https://github.com/{{ include.repository }}"
