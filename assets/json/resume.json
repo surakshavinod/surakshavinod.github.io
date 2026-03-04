@@ -7,6 +7,7 @@
     "phone": "",
     "website": "https://surakshavinod.github.io/",
     "summary": "PhD student in Bioinformatics and Genomics at Penn State with a keen interest in personalized medicine and complex diseases.",
+    "interests": "Statistical Genetics and Genomics, Personalized Medicine, GxE interactions, Complex Diseases, ML in Biology",
     "location": {
       "address": "The Pennsylvania State University",
       "postalCode": "PA 16803",
@@ -155,23 +156,34 @@
       "summary": ""
     }
   ],
-  "certificates": [
-    {
-      "name": "",
-      "date": "",
-      "issuer": "",
-      "url": "",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
   "skills": [
     {
-      "name": "",
+      "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
+      "keywords": [R, Python, Bash, SQL
       ]
-    }
+    },
+    {
+      "name": "Bioinformatics Tools and Software",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [PLINK, VCF/BCFtools, Admixture, BLAST, Galaxy, AutoDock Vina, Desmond, Annovar, Genome Assembly
+      ]
+    },
+    {
+      "name": "Libraries",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [numpy, pandas, scikit-learn, Matplotlib, seaborn, DESeq2, dplyr, tidyr, Seurat, ggplot2, survival, survminer, TCGAbiolinks, shiny
+      ]
+    },
+    {
+      "name": "Workflow, Containers & Other",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [Docker, Nextflow, conda/miniconda, Git, HPC, AWS, GCP, Microsoft Azure, PySpark, OpenRefine]
+    },
   ],
   "languages": [
     {
@@ -199,35 +211,7 @@
       "fluency": "Beginner",
       "icon": ""
     }
-  ],
-  "interests": [
-    {
-      "name": "Personalized Medicine",
-      "icon": ""
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Complex Diseases",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Machine Learning in Biology",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Statistical Genetics and Genomics",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Disease omics",
-      "keywords": [
-      ]
-    }
-  ],
+  ]
   "projects": [
     {
       "name": "",
