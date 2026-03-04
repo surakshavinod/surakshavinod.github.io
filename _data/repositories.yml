@@ -5,18 +5,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - name: "surakshavinod/CityScout"
-    description: "A tool to identify safe cities based on selected metrics."
-  - name: "surakshavinod/Alzheimer-Disease-Classifier"
-    description: "Classify Alzheimer patient data from fMRI images using ML models."
-  - name: "surakshavinod/Model-Comparison-for-Absorption-Profile-Prediction"
-    description: "Compare ML model performance in predicting absorption profile."
-  - name: "surakshavinod/QC-and-Assembly-using-Nextflow" 
-    description: "Nextflow pipeline for QC and assembly."
-  - name: "surakshavinod/Find-Homologs"
-    description: "Find homologs using Bash."
-  - name: "surakshavinod/Computational-Analysis-of-Nipah-Virus-Glycoprotein-Using-MATLAB"
-    description: "Simple analysis of NiV Glycoprotein using MATLAB."
+  - "surakshavinod/CityScout"
+  - "surakshavinod/Alzheimer-Disease-Classifier"
+  - "surakshavinod/Model-Comparison-for-Absorption-Profile-Prediction"
+  - "surakshavinod/QC-and-Assembly-using-Nextflow" 
+  - "surakshavinod/Find-Homologs"
+  - "surakshavinod/Computational-Analysis-of-Nipah-Virus-Glycoprotein-Using-MATLAB"
   # - surakshavinod/Representation-of-mTOR-pathway-in-Autism-on-CellDesigner
   # - alshedivat/al-folio
   # - jekyll/jekyll
