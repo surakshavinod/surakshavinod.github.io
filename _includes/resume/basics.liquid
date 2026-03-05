@@ -1,5 +1,5 @@
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
+  {% assign skip_basics = 'image,location' | split: ',' %}
   {% for content in data[1] %}
     {%
       if (content[1] == "") or (skip_basics contains
@@ -26,3 +26,18 @@
     </tr>
   {% endfor %}
 </table>
+
+{%- comment -%} Render basics.profiles separately {%- endcomment -%}
+{% assign basics = data[1] %}
+{% if basics.profiles and basics.profiles.size > 0 %}
+  <ul class="list-unstyled mt-2">
+    {% for profile in basics.profiles %}
+      <li>
+        <strong>{{ profile.network }}:</strong>
+        <a href="{{ profile.url }}" target="_blank" rel="noopener">
+          {{ profile.username }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
