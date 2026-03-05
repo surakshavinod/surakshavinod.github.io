@@ -3,7 +3,7 @@
     "image": "",
     "email": "suraksha.vinlak@gmail.com",
     "phone": "",
-    "summary": "PhD student in Bioinformatics and Genomics at Penn State with a keen interest in personalized medicine and complex diseases.",
+    "title": "PhD student in Bioinformatics and Genomics at Penn State",
     "research interests": "Statistical Genetics and Genomics, Personalized Medicine, GxE interactions, Complex Diseases, ML in Biology",
     "location": {
       "address": "The Pennsylvania State University",
@@ -14,13 +14,18 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Suraksha Vinod",
+        "username": "",
         "url": "https://www.linkedin.com/in/surakshavinod/"
       },
       {
         "network": "GitHub",
-        "username": "surakshavinod",
+        "username": "",
         "url": "https://www.github.com/surakshavinod/"
+      },
+      {
+        "network": "Website",
+        "username": "",
+        "url": "https://surakshavinod.github.io/"
       }
     ]
   },
