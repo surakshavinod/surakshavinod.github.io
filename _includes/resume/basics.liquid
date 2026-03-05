@@ -28,7 +28,7 @@
 </table>
 
 {%- comment -%} Render basics.profiles separately {%- endcomment -%}
-{% assign basics = data[1] %}
+{% assign basics = data[1].basics %}
 {% if basics.profiles and basics.profiles.size > 0 %}
   <ul class="list-unstyled mt-2">
     {% for profile in basics.profiles %}
