@@ -28,30 +28,3 @@
   {% endfor %}
 </table>
 
-{%- comment -%} New one-line links bar {%- endcomment -%}
-{% assign basics = data[1].basics %}
-<p class="mt-2">
-  {% assign first = true %}
-  {% if basics.profiles %}
-    {% for profile in basics.profiles %}
-      {% unless first %} || {% endunless %}
-      <a href="{{ profile.url }}" target="_blank" rel="noopener">
-        {{ profile.network }}
-      </a>
-      {% assign first = false %}
-    {% endfor %}
-  {% endif %}
-  {% if basics.website %}
-    {% unless first %} || {% endunless %}
-    <a href="{{ basics.website }}" target="_blank" rel="noopener">
-      Website
-    </a>
-    {% assign first = false %}
-  {% endif %}
-  {% if basics.email %}
-    {% unless first %} || {% endunless %}
-    <a href="mailto:{{ basics.email }}">
-      Email
-    </a>
-  {% endif %}
-</p>
