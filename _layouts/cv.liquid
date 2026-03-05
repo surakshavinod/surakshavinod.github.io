@@ -26,7 +26,13 @@ layout: default
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h3 class="card-title font-weight-medium">{{ entry.title }}
+              {% if data[0] == 'basics' %}
+                Suraksha Vinod
+              {% else %}
+                {{ data[0] | capitalize }}
+              {% endif %}
+            </h3>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
