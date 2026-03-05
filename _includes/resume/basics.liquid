@@ -1,3 +1,4 @@
+<h2 class="section-title">{{ data[1].name }}</h2>
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
   {% assign skip_basics = 'image,location' | split: ',' %}
   {% for content in data[1] %}
@@ -27,17 +28,30 @@
   {% endfor %}
 </table>
 
-{%- comment -%} Render basics.profiles separately {%- endcomment -%}
+{%- comment -%} New one-line links bar {%- endcomment -%}
 {% assign basics = data[1].basics %}
-{% if basics.profiles and basics.profiles.size > 0 %}
-  <ul class="list-unstyled mt-2">
+<p class="mt-2">
+  {% assign first = true %}
+  {% if basics.profiles %}
     {% for profile in basics.profiles %}
-      <li>
-        <strong>{{ profile.network }}:</strong>
-        <a href="{{ profile.url }}" target="_blank" rel="noopener">
-          {{ profile.username }}
-        </a>
-      </li>
+      {% unless first %} || {% endunless %}
+      <a href="{{ profile.url }}" target="_blank" rel="noopener">
+        {{ profile.network }}
+      </a>
+      {% assign first = false %}
     {% endfor %}
-  </ul>
-{% endif %}
+  {% endif %}
+  {% if basics.website %}
+    {% unless first %} || {% endunless %}
+    <a href="{{ basics.website }}" target="_blank" rel="noopener">
+      Website
+    </a>
+    {% assign first = false %}
+  {% endif %}
+  {% if basics.email %}
+    {% unless first %} || {% endunless %}
+    <a href="mailto:{{ basics.email }}">
+      Email
+    </a>
+  {% endif %}
+</p>
