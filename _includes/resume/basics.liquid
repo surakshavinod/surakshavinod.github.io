@@ -1,6 +1,6 @@
 <h2 class="section-title">{{ data[1].name }}</h2>
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,location' | split: ',' %}
+  {% assign skip_basics = 'email,image,location,profiles' | split: ',' %}
   {% for content in data[1] %}
     {%
       if (content[1] == "") or (skip_basics contains
@@ -28,3 +28,23 @@
   {% endfor %}
 </table>
 
+<tr>
+  <td class="p-1 pr-2 font-weight-bold">
+    <b>Profiles</b>
+  </td>
+  <td class="p-1 pl-2 font-weight-light text">
+    <a href="mailto:{{ site.data.resume.basics.email }}">Email</a>
+    {% assign profiles = site.data.resume.basics.profiles %}
+    {% if profiles %}
+      {% for p in profiles %}
+        {% if p.network == "LinkedIn" %}
+          || <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        {% elsif p.network == "GitHub" %}
+          || <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {% elsif p.network == "Website" %}
+          || <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">Website</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </td>
+</tr>
