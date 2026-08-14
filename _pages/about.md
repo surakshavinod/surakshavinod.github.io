@@ -11,8 +11,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>College of Medicine</p>
     <p>The Pennsylvania State University</p>
-    <p>University Park, PA</p>
+    <p>Hershey, PA</p>
     <p></p>
 
 news: true # includes a list of news items
@@ -20,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm Suraksha Vinod, a PhD student in Bioinformatics and Genomics at The Pennsylvania State University, University Park, PA, U.S.A.
+Hello! I'm Suraksha Vinod, a PhD student in Bioinformatics and Genomics in Prof. Liu's lab at The Pennsylvania State University - College of Medicine, Hershey, PA, U.S.A.
 
 
 
