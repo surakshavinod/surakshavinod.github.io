@@ -25,8 +25,8 @@ Hello! I'm Suraksha Vinod, a PhD student in Bioinformatics and Genomics in Prof.
 
 
 
-I hold a Master of Science in Bioinformatics from Georgia Institute of Technology, Atlanta, U.S.A., and a Bachelor of Technology degree in Biotechnology, with a minor in Computer Science and Engineering, from PES University, India.
+I hold a Master of Science in Bioinformatics from Georgia Institute of Technology, Atlanta, U.S.A., and a Bachelor of Technology in Biotechnology, with a minor in Computer Science and Engineering, from PES University, India.
 
-I am passionate about leveraging computational approaches to answer biological questions, particularly in the fields of personalized medicine and complex diseases. I aim to advance these fields through innovative solutions that can be clincally translated.
+I am passionate about leveraging computational approaches to answer biological questions, particularly in the fields of personalized medicine and complex diseases. I aim to advance these fields through innovative solutions that can be clinically translated.
 
 Feel free to explore my website to learn more about me!
