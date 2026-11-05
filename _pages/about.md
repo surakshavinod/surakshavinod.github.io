@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Under construction
-nav: true
 profile:
   align: right
   image: prof_pic.jpg
