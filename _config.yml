@@ -191,6 +191,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  blog_posts:
+    output: true
+    permalink: /blog/:year/:title/
   news:
     defaults:
       layout: post
@@ -231,6 +234,8 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin/
+  - _posts/
+  - _projects/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
