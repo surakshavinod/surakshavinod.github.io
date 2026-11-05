@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: Under construction
-
+nav: true
+nav_order: 1
 profile:
   align: right
   image: prof_pic.jpg
