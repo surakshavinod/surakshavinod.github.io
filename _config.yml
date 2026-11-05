@@ -191,9 +191,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  blog_posts:
-    output: true
-    permalink: /blog/:year/:title/
   news:
     defaults:
       layout: post
@@ -234,7 +231,8 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin/
-  - _posts/
+  - _projects/
+  - _sample_posts/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -311,7 +309,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["graduate-education", "food", "travel"] # these tags will be displayed on the front page of your blog
-display_categories: ["academics", "lifestyle", "research", "external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["academics", "lifestyle", "research", "external"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
