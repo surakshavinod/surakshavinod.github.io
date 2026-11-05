@@ -13,5 +13,3 @@ I joined Dr. Dajiang Liu's lab at Penn State College of Medicine for my PhD! :sp
 Check out Dr. Liu's lab <a href="https://dajiangliu.blog/">here</a>.
 
 ---
-
-

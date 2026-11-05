@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: Under construction
 
-[<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.]: #
+[<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.]:#
 
 profile:
   align: right
@@ -22,8 +22,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hello! I'm Suraksha Vinod, a PhD student in Bioinformatics and Genomics in Prof. Liu's lab at The Pennsylvania State University - College of Medicine, Hershey, PA, U.S.A.
-
-
 
 I hold a Master of Science in Bioinformatics from Georgia Institute of Technology, Atlanta, U.S.A., and a Bachelor of Technology in Biotechnology, with a minor in Computer Science and Engineering, from PES University, India.
 

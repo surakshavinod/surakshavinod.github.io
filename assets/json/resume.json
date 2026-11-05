@@ -161,21 +161,47 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["R", "Python", "Bash", "SQL"
-      ]
+      "keywords": ["R", "Python", "Bash", "SQL"]
     },
     {
       "name": "Bioinformatics Tools, Software & Techniques",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Genome Assembly", "QC", "Annotation", "PLINK", "VCF/BCFtools", "Admixture", "GWAS/TWAS", "PRS", "GSEA", "BLAST", "Galaxy", "AutoDock Vina", "Desmond"
+      "keywords": [
+        "Genome Assembly",
+        "QC",
+        "Annotation",
+        "PLINK",
+        "VCF/BCFtools",
+        "Admixture",
+        "GWAS/TWAS",
+        "PRS",
+        "GSEA",
+        "BLAST",
+        "Galaxy",
+        "AutoDock Vina",
+        "Desmond"
       ]
     },
     {
       "name": "Libraries",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["numpy", "pandas", "scikit-learn", "Matplotlib", "seaborn", "DESeq2", "dplyr", "tidyr", "Seurat", "ggplot2", "survival", "survminer", "TCGAbiolinks", "shiny"
+      "keywords": [
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "seaborn",
+        "DESeq2",
+        "dplyr",
+        "tidyr",
+        "Seurat",
+        "ggplot2",
+        "survival",
+        "survminer",
+        "TCGAbiolinks",
+        "shiny"
       ]
     },
     {

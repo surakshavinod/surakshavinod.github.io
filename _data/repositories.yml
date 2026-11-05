@@ -11,7 +11,7 @@ github_repos:
     description: "Classify patient data from fMRI images using ML models."
   - name: "surakshavinod/Model-Comparison-for-Absorption-Profile-Prediction"
     description: "Compare the prediction accuracy of ML models for absorption profile of molecules."
-  - name: "surakshavinod/QC-and-Assembly-using-Nextflow" 
+  - name: "surakshavinod/QC-and-Assembly-using-Nextflow"
     description: "Nextflow pipeline for QC and assembly."
   - name: "surakshavinod/Find-Homologs"
     description: "Bash script to find homologs."
