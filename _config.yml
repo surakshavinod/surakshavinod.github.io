@@ -235,7 +235,6 @@ include: ["_pages"]
 exclude:
   - bin/
   - _posts/
-  - _projects/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
